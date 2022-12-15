@@ -2,14 +2,6 @@ body {
   font-family: arial, sans-serif;
 }
 
-.weather-app {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 7px;
-}
-
 h1 {
   color: #878787;
   font-size: 24px;
@@ -26,7 +18,27 @@ li {
 
 li {
   list-style: none;
+  text-transform: capitalize;
   color: rgb(135 135 135);
   font-size: 16px;
   font-weight: 100;
+  line-height: 19px;
+}
+.link {
+  text-decoration: none;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 7px;
+}
+
+.footer {
+  position: fixed;
+  width: 80%;
+  top: 210px;
+  text-align: center;
 }
