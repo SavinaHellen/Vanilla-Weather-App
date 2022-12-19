@@ -23,6 +23,12 @@ li {
   font-weight: 100;
   line-height: 19px;
 }
+
+.footer {
+  margin-top: 1em;
+  text-align: center;
+}
+
 .link {
   text-decoration: none;
 }
@@ -33,13 +39,6 @@ li {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 7px;
-}
-
-.footer {
-  position: fixed;
-  width: 80%;
-  top: 210px;
-  text-align: center;
 }
 
 li:first-letter {
