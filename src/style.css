@@ -43,23 +43,29 @@ li {
 }
 
 .overview {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.weather-temperature img {
-  margin-right: 10px;
-  height: 64px;
-  width: 64px;
+.weather-temperature .float-left img {
+  margin-right: 5px;
+  height: 1;
+  width: 1;
 }
 
 .weather-temperature strong {
+  position: relative;
   color: #212121;
   line-height: 1;
   font-size: 64px;
   font-weight: 400;
+  top: 20px;
 }
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: -32px;
+  top: -15px;
+}
+
+.float-lef {
+  margin-top: 10px;
 }
