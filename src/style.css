@@ -66,6 +66,19 @@ li {
   top: -15px;
 }
 
+.weather-temperature .active {
+  color: #212121;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+}
 .float-lef {
   margin-top: 10px;
 }
